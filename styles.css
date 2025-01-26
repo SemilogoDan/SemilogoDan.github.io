@@ -10,8 +10,8 @@ body {
 .centralized-header {
     text-align: center;
     padding: 50px 20px;
-    background-color: #ffcc00;
-    color: white;
+    background-color:  #ff0000;
+    color: red;
 }
 
 .centralized-header img {
