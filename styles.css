@@ -10,7 +10,7 @@ body {
 .centralized-header {
     text-align: center;
     padding: 50px 20px;
-    background-color: #222; /* Darker color for the header */
+    background-color: #444; /* You can use a dark color for the header */
     color: white;
 }
 
@@ -32,67 +32,19 @@ body {
     margin-top: 10px;
 }
 
-/* Section Styling */
-.container {
-    padding: 20px;
-    background-color: white;
-    margin: 20px auto;
-    max-width: 800px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.container h2 {
-    font-size: 1.75rem;
-    margin-bottom: 20px;
-}
-
-/* Project Photos */
-.project-photo {
-    width: 100%;
-    height: auto;
-    max-width: 300px; /* Adjust to control image size */
-    margin-bottom: 15px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.project-photo:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
-/* Projects Grid Layout */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 20px; /* Space between items */
-    padding: 20px;
-}
-
-.project-item {
-    text-align: center; /* Center content */
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: white;
-}
-
 /* Social Media Icons */
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 20px; /* Spacing between the icons */
     margin: 20px 0;
+    position: relative; /* Prevents overlap with the header */
+    z-index: 1; /* Ensures icons appear above other elements */
 }
 
 .social-icon {
     font-size: 2rem; /* Adjust size */
-    color: #444; /* Default color */
+    color: #444; /* Default color for social media icons */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s ease;
 }
@@ -112,4 +64,27 @@ footer {
 
 .social-icon .fa-youtube:hover {
     color: #ff0000; /* YouTube red color */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Section Styling */
+.container {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
 }
