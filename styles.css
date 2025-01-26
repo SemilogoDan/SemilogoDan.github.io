@@ -92,11 +92,12 @@ footer {
 
 .social-icon {
     font-size: 2rem;
-    color: #444;
-    text-decoration: none;
+    color: #444; /* Default icon color */
+    text-decoration: none; /* Remove underline */
     transition: color 0.3s ease;
 }
 
 .social-icon:hover {
-    color: #0077b5;
+    color: #0077b5; /* Default hover color (LinkedIn blue for consistency) */
 }
+
