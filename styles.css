@@ -114,3 +114,8 @@ footer {
     color: #00ab6c; /* Medium green */
 }
 
+.social-icon .fa-youtube:hover {
+    color: #ff0000; /* YouTube red */
+}
+
+
