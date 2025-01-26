@@ -49,9 +49,9 @@ body {
 
 /* Project Photos */
 .project-photo {
-    width: 100%;
+    width: 100%;  /* Make the images responsive */
     height: auto;
-    max-width: 300px; /* Adjust to control image size */
+    max-width: 150px; /* Set a max width to control the size */
     margin-bottom: 15px;
     border-radius: 8px;
     cursor: pointer;
@@ -69,6 +69,7 @@ body {
     gap: 20px; /* Space between items */
     padding: 20px;
 }
+
 
 .project-item {
     text-align: center; /* Center content */
