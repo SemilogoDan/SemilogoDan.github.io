@@ -62,6 +62,18 @@ body {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
+/* Projects Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+.project-item {
+    text-align: center; /* Center content */
+}
+
 /* Footer Styles */
 footer {
     text-align: center;
