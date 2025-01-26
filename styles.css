@@ -86,7 +86,7 @@ footer {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; /* Spacing between icons */
     margin: 20px 0;
 }
 
@@ -94,10 +94,23 @@ footer {
     font-size: 2rem;
     color: #444; /* Default icon color */
     text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
-.social-icon:hover {
-    color: #0077b5; /* Default hover color (LinkedIn blue for consistency) */
+/* Hover Effects with Specific Colors */
+.social-icon .fa-envelope:hover {
+    color: #d44638; /* Gmail red */
+}
+
+.social-icon .fa-github:hover {
+    color: #333; /* GitHub black */
+}
+
+.social-icon .fa-linkedin:hover {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icon .fa-medium:hover {
+    color: #00ab6c; /* Medium green */
 }
 
