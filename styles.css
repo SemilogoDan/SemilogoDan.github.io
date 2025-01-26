@@ -8,89 +8,49 @@ body {
 
 /* Centralized Header Styles */
 .centralized-header {
-    text-align: center; /* Center-align text */
-    padding: 100px 20px; /* Add spacing around the content */
-    background-color: #444; /* Adjust background color for visibility */
-    color: white; /* Set text color */
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #444;
+    color: white;
+}
+
+.centralized-header img {
+    width: 150px; /* Adjust photo size */
+    height: 150px; /* Keep photo square */
+    border-radius: 50%; /* Circular shape */
+    margin-bottom: 20px; /* Spacing below the image */
+    border: 3px solid white; /* Optional border */
 }
 
 .centralized-header h1 {
-    font-size: 3rem; /* Adjust font size of the name */
-    margin: 0; /* Remove default margin */
+    font-size: 2.5rem;
+    margin: 0;
 }
 
 .centralized-header p {
-    font-size: 1.5rem; /* Adjust font size of the course */
-    margin-top: 10px; /* Add spacing between the name and the course */
+    font-size: 1.25rem;
+    margin-top: 10px;
 }
 
-/* About Section */
-#about {
+/* Section Styling */
+.container {
+    padding: 20px;
     background-color: white;
-    color: #333;
-    padding: 20px;
-    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#about h2 {
-    font-size: 28px;
+.container h2 {
+    font-size: 1.75rem;
     margin-bottom: 20px;
 }
 
-/* Projects Section */
-#projects {
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 20px;
-    text-align: center;
-}
-
-#projects h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-#projects ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#projects ul li {
-    margin: 10px 0;
-}
-
-#projects ul li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-#projects ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #f9f9f9;
-    color: #333;
-    text-align: center;
-    padding: 20px;
-}
-
-#contact h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-#contact a {
-    color: #333;
-    font-weight: bold;
-}
-
-/* Footer */
+/* Footer Styles */
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 10px 0;
+    background-color: #333;
+    color: white;
 }
