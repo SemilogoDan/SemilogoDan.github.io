@@ -10,7 +10,7 @@ body {
 .centralized-header {
     text-align: center;
     padding: 50px 20px;
-    background-color: #444; /* You can use a dark color for the header */
+    background-color: #ffcc00; /* Updated to yellow */
     color: white;
 }
 
