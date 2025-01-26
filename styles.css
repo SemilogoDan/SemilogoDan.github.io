@@ -6,62 +6,34 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+/* Centralized Header Styles */
+.centralized-header {
+    text-align: center; /* Center-align text */
+    padding: 100px 20px; /* Add spacing around the content */
+    background-color: #444; /* Adjust background color for visibility */
+    color: white; /* Set text color */
 }
 
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.centralized-header h1 {
+    font-size: 3rem; /* Adjust font size of the name */
+    margin: 0; /* Remove default margin */
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    margin: 10px 0;
-}
-
-/* Home Section */
-#home {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-}
-
-#home h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+.centralized-header p {
+    font-size: 1.5rem; /* Adjust font size of the course */
+    margin-top: 10px; /* Add spacing between the name and the course */
 }
 
 /* About Section */
 #about {
     background-color: white;
     color: #333;
-    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
 }
 
 #about h2 {
     font-size: 28px;
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -69,17 +41,18 @@ section {
 #projects {
     background-color: #f9f9f9;
     color: #333;
+    padding: 20px;
+    text-align: center;
 }
 
 #projects h2 {
     font-size: 28px;
-    text-align: center;
     margin-bottom: 20px;
 }
 
 #projects ul {
     list-style-type: none;
-    text-align: center;
+    padding: 0;
 }
 
 #projects ul li {
@@ -96,28 +69,22 @@ section {
     text-decoration: underline;
 }
 
-/* Resume Section */
-#resume {
-    background-color: white;
-    color: #333;
-    text-align: center;
-}
-
-#resume a {
-    color: #333;
-    font-weight: bold;
-}
-
 /* Contact Section */
 #contact {
     background-color: #f9f9f9;
     color: #333;
     text-align: center;
+    padding: 20px;
 }
 
 #contact h2 {
     font-size: 28px;
     margin-bottom: 10px;
+}
+
+#contact a {
+    color: #333;
+    font-weight: bold;
 }
 
 /* Footer */
@@ -126,22 +93,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-}
-
-/* New Styles for Centralizing Name and Course */
-.centralized-header {
-    text-align: center; /* Center-align text */
-    padding: 100px 20px; /* Add spacing around the content */
-    background-color: #444; /* Adjust background color for visibility */
-    color: white; /* Set text color */
-}
-
-.centralized-header h1 {
-    font-size: 3rem; /* Adjust font size of the name */
-    margin: 0; /* Remove default margin */
-}
-
-.centralized-header p {
-    font-size: 1.5rem; /* Adjust font size of the course */
-    margin-top: 10px; /* Add spacing between the name and the course */
 }
