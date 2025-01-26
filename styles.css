@@ -127,3 +127,21 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+/* New Styles for Centralizing Name and Course */
+.centralized-header {
+    text-align: center; /* Center-align text */
+    padding: 100px 20px; /* Add spacing around the content */
+    background-color: #444; /* Adjust background color for visibility */
+    color: white; /* Set text color */
+}
+
+.centralized-header h1 {
+    font-size: 3rem; /* Adjust font size of the name */
+    margin: 0; /* Remove default margin */
+}
+
+.centralized-header p {
+    font-size: 1.5rem; /* Adjust font size of the course */
+    margin-top: 10px; /* Add spacing between the name and the course */
+}
