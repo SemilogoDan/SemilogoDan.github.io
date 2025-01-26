@@ -15,8 +15,8 @@ body {
 }
 
 .centralized-header img {
-    width: 150px; /* Adjust photo size */
-    height: 150px; /* Keep photo square */
+    width: 75px; /* Quarter of 150px */
+    height: 75px; /* Quarter of 150px */
     border-radius: 50%; /* Circular shape */
     margin-bottom: 20px; /* Spacing below the image */
     border: 3px solid white; /* Optional border */
