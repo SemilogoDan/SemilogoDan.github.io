@@ -53,7 +53,7 @@ body {
     grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
     gap: 20px; /* Space between items */
     padding: 20px;
-    align-items: start; /* Ensures items align from the top */
+    justify-items: center; /* Center items within the grid */
 }
 
 /* Project Item */
@@ -67,9 +67,9 @@ body {
 /* Project Image Styling */
 .project-photo {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px; /* Adjust image size to make it smaller */
     border-radius: 8px;
-    margin-bottom: 10px; /* Reduced space */
+    margin-bottom: 10px; /* Reduce space between image and title */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -79,12 +79,12 @@ body {
 
 /* Project Title and Description Styling */
 .project-info {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .project-info strong {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 5px; /* Reduce spacing */
 }
 
