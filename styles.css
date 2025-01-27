@@ -47,30 +47,13 @@ body {
     margin-bottom: 20px;
 }
 
-/* Ensure project text spacing is minimal */
-.project-item strong {
-    display: block;
-    font-size: 1.2rem;
-    margin-bottom: 5px; /* Reduce space below the title */
-}
-
-.project-item br {
-    display: none; /* Remove the line break to avoid unnecessary space */
-}
-
-.project-item p {
-    font-size: 1rem;
-    margin-top: 0; /* Remove extra top space */
-    line-height: 1.4; /* Adjust line height for better readability */
-}
-
 /* Projects Grid Layout */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
     gap: 20px; /* Space between items */
     padding: 20px;
-    align-items: start; /* Aligns all items to the top */
+    align-items: start; /* Ensures items align from the top */
 }
 
 /* Project Item */
@@ -80,6 +63,38 @@ body {
     align-items: center;
     text-align: center;
 }
+
+/* Project Image Styling */
+.project-photo {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Reduced space */
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-photo:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Project Title and Description Styling */
+.project-info {
+    max-width: 300px;
+}
+
+.project-info strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px; /* Reduce spacing */
+}
+
+.project-info p {
+    font-size: 1rem;
+    margin-top: 0;
+    line-height: 1.4;
+    text-align: center;
+}
+
 
 /* Footer Styles */
 footer {
