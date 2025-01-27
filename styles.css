@@ -47,6 +47,23 @@ body {
     margin-bottom: 20px;
 }
 
+/* Ensure project text spacing is minimal */
+.project-item strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px; /* Reduce space below the title */
+}
+
+.project-item br {
+    display: none; /* Remove the line break to avoid unnecessary space */
+}
+
+.project-item p {
+    font-size: 1rem;
+    margin-top: 0; /* Remove extra top space */
+    line-height: 1.4; /* Adjust line height for better readability */
+}
+
 /* Projects Grid Layout */
 .projects-grid {
     display: grid;
@@ -62,31 +79,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
 }
-
-/* Ensure equal height for all project descriptions */
-.project-item strong, 
-.project-item br, 
-.project-item p {
-    min-height: 80px; /* Adjust the height as needed */
-}
-
-/* Project Photos */
-.project-photo {
-    width: 100%;
-    height: auto;
-    max-width: 300px; /* Set a max width to control the image size */
-    border-radius: 8px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.project-photo:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
-}
-
 
 /* Footer Styles */
 footer {
