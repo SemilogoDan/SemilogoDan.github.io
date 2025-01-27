@@ -47,32 +47,46 @@ body {
     margin-bottom: 20px;
 }
 
+/* Projects Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    align-items: start; /* Aligns all items to the top */
+}
+
+/* Project Item */
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+/* Ensure equal height for all project descriptions */
+.project-item strong, 
+.project-item br, 
+.project-item p {
+    min-height: 80px; /* Adjust the height as needed */
+}
+
 /* Project Photos */
 .project-photo {
     width: 100%;
     height: auto;
-    max-width: 150px;
-    margin-bottom: 15px;
+    max-width: 300px; /* Set a max width to control the image size */
     border-radius: 8px;
+    margin-bottom: 15px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
 
 .project-photo:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-/* Projects Grid Layout */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
-
-.project-item {
-    text-align: center;
-}
 
 /* Footer Styles */
 footer {
